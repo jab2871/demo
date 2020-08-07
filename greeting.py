@@ -5,7 +5,7 @@ def main():
     :returns: TODO
 
     """
-    print("Hello")
+    print("HELLO")
 
 if __name__ == "__main__":
     main()
