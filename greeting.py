@@ -2,6 +2,8 @@
 
 import sys
 
+password="password123"
+
 def dog():
     print("woof")
 
