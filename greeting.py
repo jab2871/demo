@@ -8,6 +8,9 @@ def dog():
 def cat():
     print("Meow")
 
+def cow():
+    print("moo")
+
 def main():
     """Main Function
     :returns: TODO
@@ -17,6 +20,8 @@ def main():
         dog()
     elif len(sys.argv) > 1 and sys.argv[1] == "cat":
         cat()
+    elif len(sys.argv) > 1 and sys.argv[1] == "cow":
+        cow()
     else:
         print("HELLO WORLD")
 
